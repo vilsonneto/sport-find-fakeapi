@@ -1,0 +1,618 @@
+{
+  "users": [
+    {
+      "email": "adm@gmail.com",
+      "password": "$2a$10$fIerXstYWHkJvrsBVWu4g.blus84P5AkevTSBS36WH7TYFYw2fKyW",
+      "username": "adm",
+      "state": "Pernambuco",
+      "id": 1,
+      "avatar": {}
+    },
+    {
+      "email": "kenzie@gmail.com",
+      "password": "$2a$10$Pvefs9vReYKy/6c6S1smZO1kHlrLDPhJjQHjuJljkhgGQufaejhAm",
+      "username": "rogerinho",
+      "state": "Rio de Janeiro",
+      "id": 2,
+      "avatar": {}
+    },
+    {
+      "email": "henrique@gmail.com",
+      "password": "$2a$10$00kJj4.x3d3v9MNNNAzEnuX1ACqwO5ytlT18BvL1kjTFLmVEVD6di",
+      "username": "Henrique",
+      "state": "Rio de Janeiro",
+      "id": 3,
+      "avatar": {}
+    },
+    {
+      "email": "natalia@gmail.com",
+      "password": "$2a$10$075XhTNW3PJ1v4Rr5GTgf.2bTWWmvviIn5k9BUj/mVt2ri1J1Ds1y",
+      "username": "Natalia",
+      "state": "Rio de Janeiro",
+      "id": 4,
+      "avatar": {}
+    },
+    {
+      "email": "miqueias@gmail.com",
+      "password": "$2a$10$lizY7uB0PeyMZsjN.Mlka.5dhneyAjArc7lq7txdVqtJpqr30JKsi",
+      "username": "Miqueias",
+      "state": "Rio de Janeiro",
+      "id": 5,
+      "avatar": {}
+    },
+    {
+      "email": "vilson@gmail.com",
+      "password": "$2a$10$MW8j.F7a3CbwfB67yDC9o.ciuZWca3EJbAmqQ3tQk2YS74DbI/W4K",
+      "username": "Vilson",
+      "state": "Rio de Janeiro",
+      "id": 6,
+      "avatar": {}
+    },
+    {
+      "email": "priccila@gmail.com",
+      "password": "$2a$10$CMhLgn.V2u7R7GEJciC9QeRV3qlFnOgk3T5BbR3FX/vdm9b8zNRke",
+      "username": "Priccila",
+      "state": "Rio de Janeiro",
+      "id": 7,
+      "avatar": {}
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "creator": 1,
+      "name": "Grupo 1",
+      "state": "Ceará",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Futebol",
+      "members": [{ "name": "adm", "id": 1 }],
+      "banned": []
+    },
+    {
+      "id": 2,
+      "creator": 1,
+      "name": "Grupo 2",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Basquete",
+      "members": [{ "name": "adm", "id": 1 }],
+      "banned": []
+    },
+    {
+      "id": 3,
+      "creator": 1,
+      "name": "Grupo 3",
+      "state": "Rio Grande do Sul",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Vôlei",
+      "members": [{ "name": "adm", "id": 1 }],
+      "banned": []
+    },
+    {
+      "id": 4,
+      "creator": 1,
+      "name": "Grupo 4",
+      "state": "Paraná",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Ciclismo",
+      "members": [{ "name": "adm", "id": 1 }],
+      "banned": []
+    },
+    {
+      "id": 5,
+      "creator": 1,
+      "name": "Grupo 5",
+      "state": "Bahia",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Trilha",
+      "members": [{ "name": "adm", "id": 1 }],
+      "banned": []
+    },
+    {
+      "id": 6,
+      "creator": 1,
+      "name": "Grupo 6",
+      "state": "São Paulo",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Mergulho",
+      "members": [{ "name": "adm", "id": 1 }],
+      "banned": []
+    },
+    {
+      "id": 7,
+      "creator": 1,
+      "name": "Grupo 7",
+      "state": "Rio Grande do Norte",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Surf",
+      "members": [{ "name": "adm", "id": 1 }],
+      "banned": []
+    },
+    {
+      "id": 8,
+      "creator": 1,
+      "name": "Grupo 8",
+      "state": "Pernambuco",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Skate",
+      "members": [{ "name": "adm", "id": 1 }],
+      "banned": []
+    },
+    {
+      "id": 9,
+      "creator": 1,
+      "name": "Grupo 9",
+      "state": "Santa Catarina",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Yoga",
+      "members": [{ "name": "adm", "id": 1 }],
+      "banned": []
+    },
+    {
+      "id": 10,
+      "creator": 2,
+      "name": "Vôlei-Carioca",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Vôlei",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 },
+        { "name": "Priccila", "id": 7 }
+      ],
+      "banned": []
+    },
+    {
+      "id": 11,
+      "creator": 2,
+      "name": "Space-jam-Carioca",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Basquete",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 },
+        { "name": "Priccila", "id": 7 }
+      ],
+      "banned": []
+    },
+    {
+      "id": 12,
+      "creator": 2,
+      "name": "Futebol-Carioca",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Futebol",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 },
+        { "name": "Priccila", "id": 7 }
+      ],
+      "banned": []
+    },
+    {
+      "id": 13,
+      "creator": 2,
+      "name": "Rapel",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Rapel",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 },
+        { "name": "Priccila", "id": 7 }
+      ],
+      "banned": []
+    },
+    {
+      "id": 14,
+      "creator": 2,
+      "name": "Ciclismo-Carioca",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Ciclismo",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 }
+      ],
+      "banned": []
+    },
+    {
+      "id": 15,
+      "creator": 2,
+      "name": "Trilha-Carioca",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Trilha",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 }
+      ],
+      "banned": []
+    },
+    {
+      "id": 16,
+      "creator": 2,
+      "name": "Mergulho-Carioca",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Mergulho",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 }
+      ],
+      "banned": []
+    },
+    {
+      "id": 17,
+      "creator": 2,
+      "name": "Surf-Carioca",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Surf",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 }
+      ],
+      "banned": []
+    },
+    {
+      "id": 18,
+      "creator": 2,
+      "name": "Skate-Carioca",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Skate",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 }
+      ],
+      "banned": []
+    },
+    {
+      "id": 19,
+      "creator": 2,
+      "name": "Yoga-Carioca",
+      "state": "Rio de Janeiro",
+      "description": "Encontre locais para praticar e conheça novas pessoas",
+      "category": "Yoga",
+      "members": [
+        { "name": "rogerinho", "id": 2 },
+        { "name": "Henrique", "id": 3 },
+        { "name": "Natalia", "id": 4 },
+        { "name": "Miqueias", "id": 5 },
+        { "name": "Vilson", "id": 6 }
+      ],
+      "banned": []
+    }
+  ],
+  "events": [
+    {
+      "name": "Evento 1",
+      "group_Id": 1,
+      "state": "Ceará",
+      "local": "Rua alguma coisa 1023 - Cidade-CE",
+      "data": "2021-11-07",
+      "category": "Futebol",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 1
+    },
+    {
+      "name": "Evento 2",
+      "group_Id": 2,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Basquete",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 2
+    },
+    {
+      "name": "Evento 3",
+      "group_Id": 3,
+      "state": "Rio Grande do Sul",
+      "local": "Rua alguma coisa 1023 - Cidade-RS",
+      "data": "2021-11-07",
+      "category": "Vôlei",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 3
+    },
+    {
+      "name": "Evento 4",
+      "group_Id": 4,
+      "state": "Paraná",
+      "local": "Rua alguma coisa 1023 - Cidade-PR",
+      "data": "2021-11-07",
+      "category": "Ciclismo",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 4
+    },
+    {
+      "name": "Evento 5",
+      "group_Id": 5,
+      "state": "Bahia",
+      "local": "Rua alguma coisa 1023 - Cidade-BA",
+      "data": "2021-11-07",
+      "category": "Trilha",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 5
+    },
+    {
+      "name": "Evento 6",
+      "group_Id": 6,
+      "state": "São Paulo",
+      "local": "Rua alguma coisa 1023 - Cidade-SP",
+      "data": "2021-11-07",
+      "category": "Mergulho",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 6
+    },
+    {
+      "name": "Evento 7",
+      "group_Id": 7,
+      "state": "Rio Grande do Norte",
+      "local": "Rua alguma coisa 1023 - Cidade-RN",
+      "data": "2021-11-07",
+      "category": "Surf",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 7
+    },
+    {
+      "name": "Evento 8",
+      "group_Id": 8,
+      "state": "Pernambuco",
+      "local": "Rua alguma coisa 1023 - Cidade-PE",
+      "data": "2021-11-07",
+      "category": "Skate",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 8
+    },
+    {
+      "name": "Evento 9",
+      "group_Id": 9,
+      "state": "Santa Catarina",
+      "local": "Rua alguma coisa 1023 - Cidade-SC",
+      "data": "2021-11-07",
+      "category": "Yoga",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 9
+    },
+    {
+      "name": "Evento 10",
+      "group_Id": 10,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Vôlei",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5, 6],
+      "creator": 2,
+      "id": 10
+    },
+    {
+      "name": "Evento 11",
+      "group_Id": 11,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Basquete",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5, 6],
+      "creator": 2,
+      "id": 11
+    },
+    {
+      "name": "Evento 12",
+      "group_Id": 12,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Futebol",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5],
+      "creator": 2,
+      "id": 12
+    },
+    {
+      "name": "Evento 13",
+      "group_Id": 13,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Rapel",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5],
+      "creator": 2,
+      "id": 13
+    },
+    {
+      "name": "Evento 14",
+      "group_Id": 14,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Ciclismo",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5],
+      "creator": 2,
+      "id": 14
+    },
+    {
+      "name": "Evento 15",
+      "group_Id": 15,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Trilha",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5],
+      "creator": 2,
+      "id": 15
+    },
+    {
+      "name": "Evento 16",
+      "group_Id": 16,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Mergulho",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5],
+      "creator": 2,
+      "id": 16
+    },
+    {
+      "name": "Evento 17",
+      "group_Id": 17,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Surf",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5],
+      "creator": 2,
+      "id": 17
+    },
+    {
+      "name": "Evento 18",
+      "group_Id": 18,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Skate",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5],
+      "creator": 2,
+      "id": 18
+    },
+    {
+      "name": "Evento 19",
+      "group_Id": 19,
+      "state": "Rio de Janeiro",
+      "local": "Rua alguma coisa 1023 - Cidade-RJ",
+      "data": "2021-11-07",
+      "category": "Yoga",
+      "description": "venha para o evento",
+      "users": [2, 3, 4, 5],
+      "creator": 2,
+      "id": 19
+    },
+    {
+      "name": "Evento 20",
+      "group_Id": 1,
+      "state": "Ceará",
+      "local": "Rua alguma coisa 1023 - Cidade-CE",
+      "data": "2021-11-08",
+      "category": "Futebol",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 20
+    },
+    {
+      "name": "Evento 21",
+      "group_Id": 1,
+      "state": "Ceará",
+      "local": "Rua alguma coisa 1023 - Cidade-CE",
+      "data": "2021-11-09",
+      "category": "Futebol",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 21
+    },
+    {
+      "name": "Evento 22",
+      "group_Id": 1,
+      "state": "Ceará",
+      "local": "Rua alguma coisa 1023 - Cidade-CE",
+      "data": "2021-11-13",
+      "category": "Futebol",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 22
+    },
+    {
+      "name": "Evento 23",
+      "group_Id": 1,
+      "state": "Ceará",
+      "local": "Rua alguma coisa 1023 - Cidade-CE",
+      "data": "2021-11-14",
+      "category": "Futebol",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 23
+    },
+    {
+      "name": "Evento 24",
+      "group_Id": 1,
+      "state": "Ceará",
+      "local": "Rua alguma coisa 1023 - Cidade-CE",
+      "data": "2021-11-15",
+      "category": "Futebol",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 24
+    },
+    {
+      "name": "Evento 25",
+      "group_Id": 1,
+      "state": "Ceará",
+      "local": "Rua alguma coisa 1023 - Cidade-CE",
+      "data": "2021-11-19",
+      "category": "Futebol",
+      "description": "venha para o evento",
+      "users": [1],
+      "creator": 1,
+      "id": 25
+    }
+  ]
+}
